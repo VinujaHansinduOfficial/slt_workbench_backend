@@ -25,10 +25,10 @@ spring:
       max-request-size: 1024MB
 
   datasource:
-    url: jdbc:mysql://containers-us-west-17.railway.app:7412/railway?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    username: root
-    password: iHFYtVLUxyAHlqxmBkYZThoiFYOBuwsR
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:railway}?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:password}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 server:
-  port: 8080
+  port: ${PORT:8080}
