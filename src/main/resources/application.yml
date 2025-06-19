@@ -25,9 +25,9 @@ spring:
       max-request-size: 1024MB
 
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:railway}?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    username: ${DB_USER:root}
-    password: ${DB_PASSWORD:password}
+    url: jdbc:mysql://turntable.proxy.rlwy.net:40610/railway?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: iHFYtVLUxyAHlqxmBkYZThoiFYOBuwsR
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 server:
