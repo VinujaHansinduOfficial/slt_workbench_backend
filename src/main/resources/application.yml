@@ -29,6 +29,3 @@ spring:
     username: root
     password: iHFYtVLUxyAHlqxmBkYZThoiFYOBuwsR
     driver-class-name: com.mysql.cj.jdbc.Driver
-
-server:
-  port: ${PORT:8080}
