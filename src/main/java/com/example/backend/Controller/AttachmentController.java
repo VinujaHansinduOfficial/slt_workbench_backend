@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://front-workflow-gzq3.vercel.app/")
 @RequestMapping(value = "/api/attachments")
 public class AttachmentController {
 

@@ -14,7 +14,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // Allow specific domains only
-        config.setAllowedOriginPatterns(Arrays.asList("http://localhost:3000")); // or your frontend domain
+        config.setAllowedOriginPatterns(Arrays.asList("https://front-workflow-gzq3.vercel.app/")); // or your frontend domain
         config.setAllowCredentials(true);
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");

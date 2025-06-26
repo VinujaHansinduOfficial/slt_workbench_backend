@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://front-workflow-gzq3.vercel.app/", allowCredentials = "true")
 @RequestMapping("/dashboard")
 public class DashboardController {
 

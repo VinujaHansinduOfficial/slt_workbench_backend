@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://front-workflow-gzq3.vercel.app/")
 @RequestMapping(value ="/api/template")
 public class TemplateController {
     private final TemplateService templateService;
