@@ -25,7 +25,7 @@ spring:
       max-request-size: 1024MB
 
   datasource:
-    url: jdbc:mysql://turntable.proxy.rlwy.net:40610/railway?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/workflow_db
     username: root
-    password: iHFYtVLUxyAHlqxmBkYZThoiFYOBuwsR
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
